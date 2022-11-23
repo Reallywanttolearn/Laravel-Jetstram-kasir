@@ -37,7 +37,7 @@
                     <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu"
                         data-accordion="false">
                         <li class="nav-item">
-                            <a href="#" class="nav-link">
+                            <a href="{{ route('dashboard') }}" class="nav-link">
                                 <i class="nav-icon fas fa-tachometer-alt"></i>
                                 <p>
                                     Dashboard
@@ -46,7 +46,7 @@
                         </li>
                         <li class="nav-header">MASTER</li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link">
+                            <a href="{{ route('kategori.index') }}" class="nav-link">
                                 <i class="nav-icon fas fa fa-cube"></i>
                                 <p>
                                     Kategori
@@ -54,7 +54,7 @@
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link">
+                            <a href="{{ route('produk.index') }}" class="nav-link">
                                 <i class="nav-icon fas fa fa-cubes"></i>
                                 <p>
                                     Produk
